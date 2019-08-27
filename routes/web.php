@@ -11,25 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
-Route::get('/embed/watchlist', function () {
-    return view('embed/watchlist');
-});
-Route::get('/widget/demotrader', function () {
-    return view('embed/watchlist');
-});
+Route::get('/', 'PagesController@home');
+Route::get('/', 'PagesController@dashboard');
+Route::get('/', 'PagesController@watchlist');
+Route::get('/', 'PagesController@demotrader');
 
 // API
-Route::get('/docs/api', function () {
-    return view('api');
-});
-
+Route::get('/docs/api', 'PagesController@docsapi');
 
 Route::group(['prefix' => 'api/v1' , 'middleware' => 'auth'], function () {
 
@@ -52,8 +40,6 @@ Route::group(['prefix' => 'api/v1' , 'middleware' => 'auth'], function () {
     Route::get('/user/getMaxSell', 'UserController@getMaxSell');
 
     Route::post('/user/profile/avatarUpdate', 'UserController@uploadProfile');
-
-
 
 });
 

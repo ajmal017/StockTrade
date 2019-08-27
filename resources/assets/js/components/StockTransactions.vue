@@ -62,7 +62,7 @@
                                             <td colspan="7" class="has-text-centered"> No records yet </td>
                                         </tr>
                                     </tbody>
-                                </div>
+                                </table>
                             </div>
                         </div>
 
@@ -70,6 +70,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </template>
 
     <script>

@@ -1,7 +1,10 @@
 {
     "name": "laravel/laravel",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -9,7 +12,7 @@
         "doctrine/dbal": "^2.5",
         "intervention/image": "^2.3",
         "ixudra/curl": "^6.6",
-        "laravel/framework": "5.3.*",
+        "laravel/framework": "^5.8.0",
         "laravel/passport": "^1.0"
     },
     "require-dev": {
