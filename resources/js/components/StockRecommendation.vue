@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div id="stock-recommendation" class="is-minheight-300">
         <p v-if="isLoading">
             {{ messages.loading }}

@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <form id="stocktrade-registration" class="is-boxed" @submit.prevent="onSubmitForm">
         <div class="form-group" v-for="input in inputs">
             <label class="label">{{ input.label }}</label>

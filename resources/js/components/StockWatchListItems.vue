@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div class="column is-one-quarter">
         <div class="card">
             <header class="card-header">

@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div class="tabs-bulma" :class="{ 'is-primary' : invertColor }">
         <div class="tabs" :class="tabclass">
             <ul>

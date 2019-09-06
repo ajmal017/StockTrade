@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div id="tab-portfolio">
         <div class="section content">
             <div class="container">

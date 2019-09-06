@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div id="tab-profile">
         <div class="section content">
             <div class="container">
@@ -18,7 +18,7 @@
                         </div>
                         <div v-else class="media">
                             <div class="media-left">
-                                <figure class="image is-square" style="height: 128px; width: 128px;">
+                                <figure class="image is-128x128" style="height: 128px; width: 128px;">
                                     <photo-uploader
                                     imgDefault="http://bulma.io/images/placeholders/128x128.png" :imgPath='profile.avatar' imgW="128px" imgH="128px" btnClass="button is-small is-fullwidth" postMethod = "/api/v1/user/profile/avatarUpdate"
                                     ></photo-uploader>

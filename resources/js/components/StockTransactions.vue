@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div id="stocktrade-transactions">
         <div class="section">
             <div class="container">

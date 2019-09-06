@@ -1,8 +1,8 @@
-<template lang="html">
+<template >
     <div class="sandbox">
         <h1 class="title"></h1>
         <tabs tabclass="is-right">
-            <tab :name="b.name" :selected="true" v-for="b in box.endpoints">
+            <tab :name="b.name" :selected="true" v-for="b in box.endpoints" :key="b.id">
                 {{ b.name }}
             </tab>
         </tabs>

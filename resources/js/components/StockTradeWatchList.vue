@@ -13,7 +13,7 @@
                         <div class="card-content">
                             <div class="content"  v-if="!isLoading">
                                 <div v-if="Object.keys(stocks).length" id="stockitem-list" class="columns is-multiline">
-                                    <stock-item v-for="stock in stocks" :symbol="stock.symbol" :details="stock.data"></stock-item>
+                                    <stock-item v-for="(stock,i) in stocks" :key="stock.id" :symbol="stock.symbol" :details="stock.data"></stock-item>
                                 </div>
                                 <div v-else class="has-text-centered">
                                     <blockquote>

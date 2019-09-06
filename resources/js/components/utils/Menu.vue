@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <aside class="menu">
         <p class="menu-label">
             {{ sidemenu.name }}

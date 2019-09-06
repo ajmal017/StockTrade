@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div class="photo-uploader">
         <template v-if="!image">
             <img :src="imgDefault" :width="imgW" :height="imgH" @click.self="triggerFileBrowser"/>
@@ -87,7 +87,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss">
 .photo-uploader{
     height: inherit;
     width: inherit;

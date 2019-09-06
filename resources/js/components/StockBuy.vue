@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div class="stock-buy-wrapper">
         <div class="columns is-multiline">
             <div class="column is-full has-text-centered">

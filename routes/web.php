@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', 'PagesController@home');
-Route::get('/', 'PagesController@dashboard');
+// Route::get('/', 'PagesController@home');
+// Route::get('/dashboard', 'PagesController@dashboard');
 Route::get('/', 'PagesController@watchlist');
-Route::get('/', 'PagesController@demotrader');
+// Route::get('/widget/demotrader', 'PagesController@demotrader');
 
 // API
 Route::get('/docs/api', 'PagesController@docsapi');

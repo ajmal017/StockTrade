@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div class="stock-sell-wrapper">
         <div class="columns is-multiline">
             <div class="column is-full has-text-centered">
@@ -102,7 +102,7 @@ export default {
                 }
             }).then(function(response){
                 if(response.status == 200 && response.data.status == 'OK'){
-                    
+
                     self.maxSell = response.data.result.maxSell;
                     self.canSell = true;
 

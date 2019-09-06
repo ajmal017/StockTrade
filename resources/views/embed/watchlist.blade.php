@@ -17,12 +17,14 @@
         var hostname = "{{ url('/') }}";
         </script>
         <!-- Resources -->
-        
-        
-        
-        
+
+
+
+
         <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
         
-        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('js/manifest.js') }}" charset="utf-8"></script>
+        <script src="{{ asset('js/vendor.js')   }}" charset="utf-8"></script>
+        <script src="{{ asset('js/app.js')      }}" charset="utf-8"></script>
         <script type="text/javascript" src="{{ asset('api/v1/js/stocktrade.js') }}"></script>
     @endpush

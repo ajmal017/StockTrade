@@ -14,11 +14,9 @@ class UsersTableSeeder extends Seeder
     */
     public function run()
     {
-        $user = User::create([
-            'fullname' => 'Ralph John Galindo',
-            'username' => 'ralphjohngalindo',
-            'password' => bcrypt('ralph123$$'),
-            'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+        $user = factory(User::class)->create([
+            'username' => 'guest',
+            'password' => bcrypt('1234')
         ]);
 
         foreach ([ 'GOOGL' , 'YHOO' , 'NDAQ' ,'TWTR' , 'DOW' , 'AAPL'] as $key => $symbol) {

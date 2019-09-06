@@ -1,0 +1,9 @@
+{
+    "/api/v1/js/docs.js": "/api/v1/js/docs.js",
+    "/api/v1/js/stocktrade.js": "/api/v1/js/stocktrade.js",
+    "/css/app.css": "/css/app.css",
+    "/css/stocktrade-main.css": "/css/stocktrade-main.css",
+    "/js/app.js": "/js/app.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/vendor.js": "/js/vendor.js"
+}

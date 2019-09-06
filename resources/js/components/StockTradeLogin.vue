@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
     <div id="stocktrade-login">
         <section class="hero is-primary">
             <div class="hero-body">
