@@ -20,7 +20,7 @@
         "bulma": "^0.7.2",
         "cross-env": "^5.2.0",
         "css-loader": "^2.1.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.4.0",
         "laravel-mix": "^4.0.16",
         "lodash": "^4.17.15",
         "popper.js": "^1.15.0",
