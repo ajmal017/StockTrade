@@ -34,7 +34,7 @@
         "webpack-cli": "^3.3.5"
     },
     "dependencies": {
-        "acorn": "^6.1.1",
+        "acorn": "^5.7.4",
         "ajv": "^6.10.2",
         "apexcharts": "^3.8.1",
         "collect.js": "^4.12.5",
